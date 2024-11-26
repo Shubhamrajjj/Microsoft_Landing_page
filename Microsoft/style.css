@@ -1,0 +1,377 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+.navbar{
+        width: 100%;
+        height: 50px;
+        /* border: solid black; */
+        padding: 0px 70px;
+        position: sticky;
+        top: 0;
+        background-color: #FFFFFF;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+.navitems {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0px 0px;
+        gap: 30px;
+    
+}
+.logo{
+    background-image: url(https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE1Mu3b?ver=5c31);
+    width: 150px;
+    height: 30px;
+    background-size: cover;}
+
+.nav_v_line{
+    /* width: 0.5px; */
+    height: 20px;
+    border: 1px solid black;
+}
+.navitems a{
+    text-decoration: none;
+color:black;
+/* font-weight: 100; */
+font-size: 15px;
+}
+.navitems a:hover{
+    border-bottom: 2px solid black;
+}
+
+.nav-right{
+    display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+}
+
+/* Section 2 */
+
+.section2-items-1{
+    width: 100%;
+    height: 600px;
+    background-image: url(https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Highlight-Surface-Laptop-AI-7Ed-Sapphire-MC001-3000x1682:VP4-1399x600);
+}
+.section2-items-2{
+    width: 40%;
+    /* border: solid black; */
+    height: 100%;
+    display: flex
+;
+    align-items: flex-start;
+    justify-content: left;
+    gap: 21px;
+    flex-direction: column;
+    /* align-content: flex-start; */
+    flex-wrap: wrap;
+    padding: 77px 109px;}
+.Upper-p{
+    border: solid #FFB900;
+    background-color: #FFB900;
+    font-size: 20px;
+    padding: 0px 10px;
+}
+.section2-items-2 button{
+    background-color: #0067B8;
+    color: white;
+    padding: 0px;
+    width: 110px;
+    height: 41px;
+    font-size: 15px;
+    border: transparent;
+
+}
+.section2-items-2 h1{
+    font-size: 30px;
+}
+
+/*  Section 3 */
+
+.section3-items{
+    height: 50px;
+    /* border: solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+.section3-items i:hover{
+border-style: dashed;
+border: dashed black;
+padding: 4px;
+}
+
+
+/* section4  */
+
+.section4{
+    margin-top: 33px;
+}
+.section4-items{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    gap: 150px;
+}
+.section4-items figcaption{
+    font-size: 10px;
+}
+.sec4-caption{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 84px;
+    text-decoration:underline;
+    color: #4278C1;
+}
+.sec4-caption figcaption:nth-child(2){
+    margin-left:  -29px;
+}
+
+/* section5  */
+
+.section5{
+    /* border: solid black; */
+    height: 400px;
+    margin-top: 80px;
+
+}
+.section5-items{
+    /* border: solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    margin-top: 10px;
+    gap: 15px;
+
+}
+.card{
+    width: 308px;
+    height: 300px;
+    /* border: solid black; */
+    /* border-style: ridge; */
+
+}
+.inner-card{
+    height: 50%;
+    background-image: url(https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/gldn-XSX-CP-Xbox-Series-X?wid=297&hei=167&fit=crop);
+    background-position: center;
+    background-size: cover;
+}
+.inner-card2{
+    height: 50%;
+    background-image: url(https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/gldn-XSS-CP-Xbox-Series-S-Evergreen?wid=297&hei=167&fit=crop);
+    background-position: center;
+    background-size: cover;
+}
+.inner-card3{
+    height: 50%;
+    background-image: url(https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Content-Card-Copilot-Native-App-ROW?wid=297&hei=167&fit=crop);
+    background-position: center;
+    background-size: cover;
+}
+.inner-card4{
+    height: 50%;
+    background-image: url(https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Content-Card-Game-Pass-Update-September-2024?wid=297&hei=167&fit=crop);
+    background-position: center;
+    background-size: cover;
+}
+.card-text{
+    padding: 30px 17px;
+}
+.section5-items button{
+    background-color: #0067B8;
+    color: white;
+    padding: 0px;
+    width: 110px;
+    height: 41px;
+    font-size: 15px;
+    border: transparent;
+
+}
+/*  section 6 */
+
+.sec6-img{
+    height: 550px;
+    width: 100%;
+    /* border: solid black; */
+    background-image: url(https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Highlight-Slim-Multi-Canvas-M365-Anthem-Attract-Image-Create:VP4-1260x600);
+    background-size: cover;
+    background-position: center;
+
+}
+.section6{
+    padding: 45px;
+}
+.section7{
+    /* border: solid black; */
+    height: 400px;
+    margin-top: 80px;
+
+}
+.section7-items{
+    /* border: solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    margin-top: 10px;
+    gap: 15px;
+
+}
+.sec7-card{
+    width: 308px;
+    height: 300px;
+    /* border: solid black; */
+    /* border-style: ridge; */
+
+}
+.sec7-inner-card{
+    height: 50%;
+    background-image: url(https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/gldn-Surf-CP-SurfaceFamilyForBusiness?wid=297&hei=167&fit=crop);
+    background-position: center;
+    background-size: cover;
+}
+.sec7-inner-card2{
+    height: 50%;
+    background-image: url(https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Content-Card-Copilot-Commercial?wid=297&hei=167&fit=crop);
+    background-position: center;
+    background-size: cover;
+}
+.sec7-inner-card3{
+    height: 50%;
+    background-image: url(https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Content-Card-Microsoft-Teams-Commercial-Meeting?wid=297&hei=167&fit=crop);
+    background-position: center;
+    background-size: cover;
+}
+.sec7-inner-card4{
+    height: 50%;
+    background-image: url(https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Content-Card-Windows-11-Business?wid=297&hei=167&fit=crop);
+    background-position: center;
+    background-size: cover;
+}
+.sec7-card-text{
+    padding: 30px 17px;
+}
+.section7-items button{
+    background-color: #0067B8;
+    color: white;
+    padding: 0px;
+    width: 110px;
+    height: 41px;
+    font-size: 15px;
+    border: transparent;
+
+}
+/* section 7 */
+
+
+.footer-navbar {
+    background-color: #f2f2f2;
+    padding: 20px;
+    color: #333;
+}
+
+.footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px 50px;
+}
+
+.social-media {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.social-media p {
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.social-media a {
+    margin: 0 10px;
+    font-size: 18px;
+    color: #333;
+    text-decoration: none;
+}
+
+.social-media a:hover {
+    color: #0078d4; /* Microsoft's blue color */
+}
+
+.footer-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.footer-column {
+    min-width: 180px;
+}
+
+.footer-column h3 {
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: #0078d4;
+}
+
+.footer-column ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-column ul li {
+    margin-bottom: 5px;
+}
+
+.footer-column ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+.footer-column ul li a:hover {
+    text-decoration: underline;
+    color: #0078d4;
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+    border-top: 1px solid #ddd;
+    padding: 10px 0;
+}
+
+.footer-bottom p {
+    margin: 5px 0;
+}
+
+.footer-bottom-links {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.footer-bottom-links li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 14px;
+}
+
+.footer-bottom-links li a:hover {
+    color: #0078d4;
+}
